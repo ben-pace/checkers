@@ -1,0 +1,36 @@
+# Further things to do:
+# 	Use the keys to select pieces and move them
+#		Figure out how to display the board such that there's a clear distinction between a highlighted tile and another
+
+class Board(object):
+	# Sets up the board
+	def __init__(self):
+		# Keeps a track of the number of 
+		# each tile on the (8x8)board
+		self.blue_count = 12
+		self.red_count = 12
+
+	# Returns the tile in a particular position
+	def check_pos(self, row, col):
+
+	# Takes in two positions, and moves the tile
+	# at the first position to the second
+	def update_pos(self, row, col, row, col):
+
+	# Lists all moves available to a particular
+	# tile.
+	def enum_moves(self, row, col):
+
+	# Alters which tile is highlighted
+	def move_pointer(self, direction):
+
+	# Checks to see if anyone has won
+	def game_over(self):
+
+class Checkers(object):
+	def __init__(self):
+		self.board = Board
+
+	def take_input(self):
+		_in = input()
+		if _in in [""]
