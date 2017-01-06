@@ -33,4 +33,10 @@ class Checkers(object):
 
 	def take_input(self):
 		_in = input()
-		if _in in [""]
+		if _in in ["right", "left", "up", "down"]:
+			pass
+		elif _in == "select":
+			pass
+		else:
+			print "That didn't make sense. Try again?"
+			return
